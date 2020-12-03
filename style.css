@@ -81,16 +81,31 @@ section{
 /*about*/
 .main_about{
     display: none; /*block*/
+    position: absolute;
     justify-content: center;
-    margin-top: 100px;
-    margin-left: 250px;
+    margin-top: 80px;
+    margin-left: 100px;
 }
 .main_about img {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 150px;
     width: 45%;
     height: 45%;
-    border-radius: 70%;
-    opacity: 70%;
+    border-radius: 50%;
+    opacity: 80%;
 }
+.about_content p{
+    font-size: xx-large;
+}
+.activity,
+.tech_stack{
+    position: relative;
+    padding: 15px;
+    background-color:#222831;
+    color: #d4d0ca;
+}
+
 
 /*project*/ 
 .main_project{
@@ -106,7 +121,7 @@ section{
 }
 
 .main_project a{
-    color: ;
+    color: #222831 ;
     justify-content: end;
 }
 
@@ -127,4 +142,9 @@ section{
 .main_contact p {
     margin-left: 350px;
     position: absolute;
+}
+.main_project pre{
+    background-color:#222831; 
+    color: #d4d0ca;
+    border-radius: 10px;
 }
