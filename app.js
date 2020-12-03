@@ -3,6 +3,7 @@ const $homeElement = document.querySelector('.home');
 const $aboutElement = document.querySelector('.about');
 const $projectElement = document.querySelector('.project');
 const $contactElement = document.querySelector('.contact');
+const $navbarTitleInnerElement = document.querySelector('.navbar_title_inner');
 
 const $mainHomeDiv = document.querySelector('.main_home');
 const $mainAboutDiv = document.querySelector('.main_about');
@@ -42,6 +43,7 @@ function init() {
 }
 
 $homeElement.addEventListener(CLICK_EVENT, init);
+$navbarTitleInnerElement.addEventListener(CLICK_EVENT, init);
 $aboutElement.addEventListener(CLICK_EVENT, handleAboutDiv);
 $projectElement.addEventListener(CLICK_EVENT, handleProjectDiv);
 $contactElement.addEventListener(CLICK_EVENT, handleContactDiv);
