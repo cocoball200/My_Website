@@ -1,2 +1,2 @@
-# portfolio with Js
-will update with React
+# CV pages with Js
+CV will update with React
